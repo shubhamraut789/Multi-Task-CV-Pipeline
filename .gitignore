@@ -1,0 +1,87 @@
+# ══════════════════════════════════════════════════
+#  Datasets (large, not to be pushed)
+# ══════════════════════════════════════════════════
+CV S26 A3 Q1 Dataset/
+Segmentation&Depth/
+ModelNet-10/
+ModelNet-10.zip
+*.zip
+
+# ══════════════════════════════════════════════════
+#  Training visualization outputs (very large)
+# ══════════════════════════════════════════════════
+st/
+st_v2/
+eval_13/
+obb_vis/
+wandb/
+
+# ══════════════════════════════════════════════════
+#  Checkpoints / model weights
+#  NOTE: best.pth files are 108-127MB each (exceeds
+#  GitHub 100MB limit). Push via Git LFS if needed,
+#  or share via Google Drive link in the report.
+# ══════════════════════════════════════════════════
+checkpoints/
+checkpoints_upload/
+*.pth
+*.pt
+*.ckpt
+
+# ══════════════════════════════════════════════════
+#  Intermediate / raw results (final results/ is kept)
+# ══════════════════════════════════════════════════
+/vis_q2/
+/vis_q3/
+/q3_results/
+/q1/
+/metrics.csv
+
+# ══════════════════════════════════════════════════
+#  Python environment & bytecode
+# ══════════════════════════════════════════════════
+myvenv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ══════════════════════════════════════════════════
+#  Helper / one-off scripts (not part of submission)
+# ══════════════════════════════════════════════════
+generate_q1_results.py
+generate_q1_outputs.py
+generate_q2_results.py
+generate_q3_results.py
+compile_st_videos.py
+update_q1_training_curves.py
+extract_notebook_images.py
+
+# ══════════════════════════════════════════════════
+#  Logs (renamed, keep for reference but don't push)
+# ══════════════════════════════════════════════════
+log_q1_*.txt
+log_q2_*.txt
+
+# ══════════════════════════════════════════════════
+#  Notebooks (too large for git)
+# ══════════════════════════════════════════════════
+*.ipynb
+
+# ══════════════════════════════════════════════════
+#  Editor, OS, and misc
+# ══════════════════════════════════════════════════
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+*:Zone.Identifier
+
+# PDFs
+*.pdf
+
+# Assignment spec
+CV_S26_A3.md
